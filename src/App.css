@@ -1,0 +1,72 @@
+/* App.css */
+.App {
+  display: flex;
+}
+
+.main-content {
+  width: 100%;
+  padding: 20px;
+}
+
+/* Sidebar.css */
+.sidebar {
+  width: 250px;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+.sidebar nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* TopBar.css */
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.topbar .btn {
+  padding: 10px 20px;
+  background-color: #ddd;
+  border: none;
+  cursor: pointer;
+}
+
+.topbar .btn.blue {
+  background-color: blue;
+  color: white;
+}
+
+/* TaskBoard.css */
+.task-board {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.task-column {
+  width: 30%;
+}
+
+.task-column h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* TaskCard.css */
+.task-card {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.task-meta span {
+  margin-right: 5px;
+  font-size: 12px;
+}

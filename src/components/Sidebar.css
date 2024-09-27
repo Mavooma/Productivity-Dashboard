@@ -1,0 +1,54 @@
+.sidebar {
+  width: 250px; /* Set a fixed width for the sidebar */
+  background-color: #cfadaf !important; /* Dark blue background */
+  color: black; /* Light text color */
+  padding: 20px; /* Padding around the content */
+  height: 100vh; /* Full height */
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.sidebar * {
+  border: none;
+}
+
+/* Sidebar heading */
+.sidebar h2 {
+  font-size: 1.5em; /* Increase heading size */
+  margin-bottom: 20px; /* Space below the heading */
+}
+
+/* Navigation styles */
+.sidebar nav {
+  margin-top: 20px; /* Space above the navigation */
+}
+
+/* Navigation list */
+.sidebar ul {
+  list-style: none; /* Remove default list styling */
+  padding: 0; /* Remove default padding */
+}
+
+/* List items */
+.sidebar li {
+  margin: 15px 0; /* Space between list items */
+  cursor: pointer; /* Change cursor on hover */
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+/* Hover effect */
+.sidebar li:hover {
+  color: #cfadaf; /* Change color on hover */
+}
+
+.sidebar li:hover {
+  background-color: #a5a4b5; /* Set the hover background to transparent */
+  color: black; /* Ensure text color remains visible */
+}
+
+/* Subheading */
+.sidebar h3 {
+  margin-top: 30px; /* Space above subheading */
+  font-size: 1.2em; /* Size of the subheading */
+  border-top: 1px solid #34495e; /* Top border for separation */
+  padding-top: 15px; /* Space above the text */
+}

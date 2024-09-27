@@ -1,0 +1,45 @@
+/* Form container */
+form {
+  display: flex; /* Align children (input and button) in a row */
+  margin: 20px 0; /* Space above and below the form */
+  gap: 10px; /* Space between input and button */
+}
+
+/* Input field styles */
+input[type="text"] {
+  flex: 1; /* Take up available space */
+  padding: 10px; /* Padding for input */
+  border: 1px solid #979d99; /* Light blue border */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 1em; /* Font size */
+  outline: none; /* Remove default outline */
+  transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+/* Input focus effect */
+input[type="text"]:focus {
+  border-color: #979d99 !important;
+}
+
+/* Button styles */
+button {
+  padding: 10px 15px; /* Padding for the button */
+  background-color: #7c5a66; /* Blue background */
+  color: #fff; /* White text */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #e1edec;
+  color: black;
+}
+
+/* Button disabled state */
+button:disabled {
+  background-color: #7f8c8d; /* Gray when disabled */
+  cursor: not-allowed; /* Not-allowed cursor */
+}

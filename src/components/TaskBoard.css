@@ -1,0 +1,31 @@
+/* Task board container */
+.task-board {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space columns evenly */
+  padding: 20px; /* Padding around the task board */
+  background-color: #f9f9f9; /* Light gray background */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Individual task column styles */
+.task-column {
+  flex: 1; /* Equal width for each column */
+  margin: 0 10px; /* Space between columns */
+  background-color: #cfadaf; /* White background for columns */
+  border-radius: 5px; /* Rounded corners */
+  padding: 15px; /* Padding inside the column */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+/* Column heading styles */
+.task-column h2 {
+  font-size: 1.5em; /* Larger font size for headings */
+  color: #2c3e50; /* Dark blue color for text */
+  margin-bottom: 10px; /* Space below headings */
+}
+
+/* Task card spacing (if needed, depending on TaskCard styles) */
+.task-card {
+  margin: 10px 0; /* Space between task cards */
+}

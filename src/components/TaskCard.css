@@ -1,0 +1,37 @@
+/* Task card styles */
+.task-card {
+  background-color: #ffffff; /* White background for the card */
+  border: 1px solid #979d99 !important; /* Light blue border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 15px; /* Padding inside the card */
+  margin: 10px 0; /* Space above and below the card */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  transition: transform 0.3s; /* Smooth transition for hover effect */
+}
+
+/* Task card hover effect */
+.task-card:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+}
+
+/* Task card title styles */
+.task-card h3 {
+  font-size: 1.2em; /* Font size for the title */
+  color: #2c3e50; /* Dark blue color for title */
+  margin-bottom: 10px; /* Space below title */
+}
+
+/* Task card type styles */
+.task-card p {
+  font-size: 1em; /* Font size for the type */
+  color: #7f8c8d; /* Gray color for type text */
+  margin-bottom: 10px; /* Space below type text */
+}
+
+/* Task meta styles */
+.task-meta {
+  display: flex; /* Use flexbox for meta information */
+  justify-content: space-between; /* Space out meta items */
+  font-size: 0.9em; /* Smaller font size for meta */
+  color: #34495e; /* Slightly darker gray color */
+}

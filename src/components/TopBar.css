@@ -1,0 +1,77 @@
+/* Top bar container styles */
+.topbar {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space elements evenly */
+  align-items: center; /* Center align items vertically */
+  background-color: #cfadaf; /* Blue background color */
+  color: white; /* White text color */
+  padding: 15px 20px; /* Padding around the top bar */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  flex-wrap: wrap; /* Allow wrapping for smaller screens */
+}
+
+/* Project info styles */
+.project-info h1 {
+  font-size: 1.5em; /* Larger font size for project title */
+  font-weight: bold;
+  margin: 0; /* Remove default margin */
+}
+
+.project-info p {
+  font-size: 1em; /* Font size for member count */
+  margin: 5px 0 0; /* Margin for spacing above and below */
+}
+
+/* Actions container styles */
+.actions {
+  display: flex; /* Use flexbox for buttons */
+  gap: 10px; /* Space between buttons */
+  flex-wrap: wrap; /* Allow buttons to wrap on smaller screens */
+}
+
+/* Button styles */
+.btn {
+  background-color: #7c5a66; /* Button background color */
+  color: black; /* Button text color */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners for buttons */
+  padding: 3px 8px; /* Smaller padding inside buttons */
+  font-size: 0.875rem; /* Smaller font size */
+  cursor: pointer; /* Change cursor on hover */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+  min-width: 80px; /* Reduce minimum width for buttons */
+}
+
+/* Button hover effect */
+.btn:hover {
+  background-color: #7c5a66 !important; /* Darker color on hover */
+  color: white; /* Change text color to white */
+}
+
+/* Additional styling for blue button */
+.btn.grey {
+  background-color: #979d99; /* Button background color */
+  color: black; /* Text color */
+}
+
+.btn.blue:hover {
+  background-color: #7c5a66; /* Darker color on hover */
+}
+
+/* Responsive Media Query */
+@media (max-width: 600px) {
+  .topbar {
+    flex-direction: column; /* Stack elements vertically */
+    padding: 10px; /* Adjust padding */
+  }
+
+  .btn {
+    width: 100%; /* Full width buttons on mobile */
+    text-align: center; /* Center text in button */
+  }
+
+  .actions {
+    width: 100%; /* Ensure buttons fill available width */
+  }
+}

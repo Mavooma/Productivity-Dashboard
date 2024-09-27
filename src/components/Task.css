@@ -1,0 +1,22 @@
+/* Task list item styles */
+li {
+  padding: 10px 15px; /* Padding for the list items */
+  margin: 10px 0; /* Space between list items */
+  background-color: #ffffff; /* White background for each task */
+  border: 1px solid #3498db; /* Light blue border */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+}
+
+/* Hover effect for list items */
+li:hover {
+  background-color: #f0f8ff; /* Light blue background on hover */
+  transform: translateY(-2px); /* Slight lift effect on hover */
+}
+
+/* Optional: style for completed tasks (if you implement it) */
+.completed {
+  text-decoration: line-through; /* Strike-through text */
+  color: #7f8c8d; /* Gray color for completed tasks */
+}

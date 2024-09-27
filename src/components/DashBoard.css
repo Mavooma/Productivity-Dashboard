@@ -1,0 +1,21 @@
+.dashboard {
+  max-width: 800px; /* Maximum width of the dashboard */
+  margin: 0 auto; /* Center the dashboard horizontally */
+  padding: 20px; /* Padding around the content */
+  background-color: #ecf0f1; /* Light gray background */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Dashboard heading */
+.dashboard h1 {
+  font-size: 2.5em; /* Larger font size for the heading */
+  text-align: center; /* Center the heading text */
+  color: #2c3e50; /* Dark blue color for the text */
+  margin-bottom: 20px; /* Space below the heading */
+}
+
+/* AddTask and TaskList sections */
+.dashboard > div {
+  margin: 20px 0; /* Space above and below AddTask and TaskList */
+}

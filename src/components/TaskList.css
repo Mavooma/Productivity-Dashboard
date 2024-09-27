@@ -1,0 +1,29 @@
+/* Task list container */
+.task-list {
+  margin: 20px 0; /* Space above and below the task list */
+}
+
+/* Task list heading styles */
+.task-list h2 {
+  font-size: 2em; /* Larger font size for the heading */
+  color: #2c3e50; /* Dark blue color for the text */
+  margin-bottom: 15px; /* Space below the heading */
+}
+
+/* Unordered list styles */
+.task-list ul {
+  list-style-type: none; /* Remove default list bullets */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+
+/* Optional: style for individual tasks if needed */
+li {
+  padding: 10px; /* Padding for list items */
+  border-bottom: 1px solid #dcdcdc; /* Light gray border for separation */
+}
+
+/* Optional: style for the last task to remove bottom border */
+li:last-child {
+  border-bottom: none; /* Remove bottom border for the last item */
+}
